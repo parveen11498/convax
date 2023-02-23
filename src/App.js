@@ -1,8 +1,7 @@
 
-import { useEffect, useState } from "react";
-import { SketchPicker, ChromePicker, GithubPicker } from "react-color";
+import { useState } from "react";
+import { SketchPicker} from "react-color";
 import "./styles.css";
-var { Alpha } = require("react-color/lib/components/common");
 
 export default function App() {
   const [currentColor, setCurrentColor] = useState("#D0021B");
